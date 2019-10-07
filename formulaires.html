@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulaires</title>
+    <link rel="stylesheet" href="cours CSS.css">
+
+</head>
+<body>
+    <h1 class="formu">Formulaire</h1>
+    
+    <form action="formulaires.html" method="POST">
+        <label for="firstname">Nom</label>
+        <input type="firstname" id="firstname" name="" value="">
+        <br>
+        <label for="name">Prénom</label>        
+        <input type="name" id="name" name="" value="">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="" value="">
+        <br>
+        <label for="phone">Téléphone</label>
+        <input type="phone" id="phone" name="" value="">
+        <br>
+        <label for="msg"> Votre Message</label>
+        <textarea name="name" id="" cols="50" rows="8"></textarea>
+        <br>
+        <label for="color">Quelle est votre couleur préférée ?</label>
+         <select name="couleur" id="couleur">
+        <option value="rouge">Rouge</option>
+        <option value="vert">Vert</option>
+        <option value="violet">Violet</option>
+        <option value="rose">Rose</option>
+        <option value="gris">Gris</option>
+        <option value="blanc">Blanc</option>
+        <option value="noir">Noir</option>
+        <option value="bleue">Bleue</option>
+      </select>
+        <br>
+        <fieldset>
+           <legend>Quel repas préférez vous ? :   </legend>
+            <input type="radio" name="repas" value="petitdej" id="petitdej" /> <label for="petitdej">Petit-Déjeuner </label>
+            <input type="radio" name="repas" value="dejeuner" id="dejeuner" /> <label for="dejeuner">Déjeuner</label>
+            <input type="radio" name="repas" value="diner" id="diner" /> <label for="diner">Diner</label>
+    </fieldset>
+    <fieldset>
+        <legend>Quel fast-food préférez vous ? :   </legend>
+         <input type="checkbox" name="fastfood" value="mcdo" id="mcdo" /> <label for="mcdo">Mc Donalds </label>
+         <input type="checkbox" name="fastfood" value="bk" id="bk" /> <label for="bk">Burger King</label>
+         <input type="checkbox" name="fastfood" value="kfc" id="kfc" /> <label for="kfc">KFC</label>
+ </fieldset>
+ <br>
+ <input type="button" value="valider" name="valider">
+    </form>
+
+
+
+</body>
+</html>
