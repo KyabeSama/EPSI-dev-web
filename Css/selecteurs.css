@@ -1,0 +1,26 @@
+header{
+    color: red;
+    font-size: 15px;
+}
+
+.titre1{
+    color: yellow;
+    font-size: 30px;
+}
+
+.titre2{
+    color: blue;
+    font-size: 30px;
+}
+.titre3{
+    color: green;
+    font-size: 30px;
+}
+
+#paragraphe{
+    color: violet;
+}
+
+main{
+    color: brown;
+}
