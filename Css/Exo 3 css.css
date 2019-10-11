@@ -1,0 +1,22 @@
+#cf {
+    position:center;
+    height:100px;
+    width:100px;
+
+}
+
+#cf img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1ms ease-in-out;
+    -moz-transition: opacity 1ms ease-in-out;
+    -o-transition: opacity 1ms ease-in-out;
+    transition: opacity 1ms ease-in-out;
+}
+
+#cf img.top:hover {
+    opacity:0;
+}
+#menu{
+    text-align: left;
+ }

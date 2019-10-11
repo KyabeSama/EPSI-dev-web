@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+*{
+    font-family: 'Indie Flower', cursive;
+}
 h1{
-    background-color: rgba(200, 4, 97,0.5);
+    width: 50%;
+    border: 1px solid red;
+    border-radius: 10px;
+    background: url("../images/jakus.jpg") no-repeat center;
+
 }
 body{
-    background-color: #003b6f;
+    width: 1920px;
+    height: 1500px;
+    background: #003b6f;
 }
