@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+li{
+    display: inline;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.main{
+    margin-top: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: green;
+    height: 220px;
+    padding-bottom: 10px;
+}
+img{
+    height: 100%;
+
+}
+.search{
+    background-color: red;
+    height: 25px;
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+
+}
+.bouton{
+    width: 150px;
+    height: 25px;
+    display: flex;
+}
+.value{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    background-color: blue;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
