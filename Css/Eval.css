@@ -1,15 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 *{
     box-sizing: border-box;
-}
 
+}
+.menu{
+    height: 50px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+}
 header {
     background: url("../images/Eval/background-header.jpg") no-repeat;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-
+header h1{
+    font-family: 'Indie Flower', cursive;
+}
 .align{
     display: flex;
     flex-direction: column;
@@ -20,19 +29,14 @@ header p {
     max-width : 800px;
     text-align : justify;
 }
-header div nav ul{
-    list-style-type: none;
+
+#lientortue  {
+    height: 100%;
+}
+#imagetortue {
+    height: 100%;
 }
 
-header h1{
-    font-family: 'Indie Flower', cursive;
-}
-
-header p {
-    align-items: center;
-    max-width : 800px;
-    text-align : justify;
-}
 header div{
     display : flex;
     flex-direction : row;
@@ -40,12 +44,12 @@ header div{
     align-items: center;
 
 }
-header div nav ul{
+ul{
     list-style-type: none;
     display : flex;
     justify-content: space-between;
 }
-header div nav ul li{
+ li{
     margin: 10px;
 }
 li a{
@@ -54,19 +58,4 @@ li a{
     text-decoration : none;
     background-color : #1AD6B7;
     color : white;
-}
-
-.menu{
-    height: 50px;
-    background: blue;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-
-}
-#tortue  {
-    height: 100%;
-}
-header  a img {
-    height: 100%;
 }
