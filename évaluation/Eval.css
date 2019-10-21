@@ -3,22 +3,25 @@
 *{
     box-sizing: border-box;
 }
-.menu{
+.sticky{
     height: 50px;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.40),rgba(0, 0, 0, 0.40));
 }
+
 header {
-  background-image: url("images/backgroundSombre.jpg");
     display: flex;
     flex-direction: column;
     text-align: center;
-}
-
-header:hover{
-  background-image: url("images/backgroundClair.jpg");
+    background:linear-gradient(rgba(0, 0, 0, 0.40),rgba(0, 0, 0, 0.40)),url("images/backgroundSombre.jpg");
+    padding-bottom: 50px;
+    margin-bottom: -50px;
 }
 
 header h1{
@@ -33,7 +36,7 @@ header h1{
 header p {
     align-items: center;
     max-width : 800px;
-    text-align : justify;
+    text-align : justify-all;
 }
 
 #lientortue  {
@@ -55,7 +58,7 @@ ul{
     display : flex;
     justify-content: space-between;
 }
- li{
+li{
     margin: 10px;
 }
 li a{
@@ -66,7 +69,7 @@ li a{
     color : white;
 }
 
-a:hover{
+li a:hover{
   background: #245fa6
 }
 
@@ -112,10 +115,6 @@ h2{
     color : white;
     display: flex;
     justify-content: center;
-}
-
-#envoi:hover{
-  background-color: #245fa6;
 }
 
 footer{
