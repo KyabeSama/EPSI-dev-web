@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header{
+    height: 100px;
+    background-color: #003b6f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+footer{
+    height: 50px;
+    background-color: #003b6f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+}

@@ -131,6 +131,7 @@ footer{
 #dansEau{
   float: left;
   padding-right: 13px;
+margin-top: 22px;
 }
 
 #milieu{
@@ -141,6 +142,7 @@ footer{
   font-size: 40px;
   font-family: 'Shadows Into Light', cursive;
   display: inline-block;
+    margin-bottom: -50px;
 }
 .petitbg{
   font-size: 20px;
@@ -154,8 +156,8 @@ aside{
 }
 
 main{
-  padding-right: 300px;
-  padding-left: 200px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 .aligner{
@@ -163,6 +165,19 @@ main{
 }
 
 hr{
+    margin-top: 50px;
   margin-left: 300px;
   margin-right: 300px;
+}
+
+#tortue2{
+  float: left;
+  margin-top: 50px;
+  height: 300px;
+    width: 450px;
+    margin-right: 30px;
+}
+
+#lineheight{
+  line-height: 35px;
 }
